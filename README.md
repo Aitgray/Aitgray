@@ -30,12 +30,15 @@ Implementation notes and technologies:
 Why it mattered: integrating a reliable, low-latency glare-masking pipeline into a smart windshield can materially improve driver comfort and safety by reducing momentary blindness from specular reflections. KVALD was a practical effort to marry research ideas (glare detection/classification) with a concrete product integration target (automatic dimming/occlusion on a windshield).
 
 #### Cloud Comparison
-This is the documented result of a course project comparing cloud storage options for a CSE239 assignment. The original material lives in the repository https://github.com/char26/cse239-cloud-storage — note that the repo is private, so I can't embed the full contents here, but the project is primarily a written (LaTeX) report and experimental notes (repository language: TeX).
+This project grew out of a CSE239 cloud systems assignment where I built and ran a fully automated database benchmarking framework. Instead of just comparing pricing tiers, we provisioned real cloud infrastructure, deployed databases in containers, and ran standardized workloads to see how they actually behaved under load .
 
 Summary (short):
-- Goal: Compare cloud object storage options (pricing models, performance characteristics, and common trade-offs) for typical student workloads and simple backups.
-- What I produced: A structured report (LaTeX) with experimental methodology, measured/collected results, and discussion of trade-offs that matter for small teams and research groups.
-- Useful for: Anyone deciding between a low-cost archival solution and a frequently-accessed research dataset store; good background material for budgeting and simple performance expectations.
+
+* Goal: Compare PostgreSQL and ScyllaDB under realistic cloud workloads using a reproducible, infrastructure as code based setup.
+* What I built: A Terraform and Docker driven pipeline that provisions Google Cloud VMs, deploys each database, runs YCSB and other benchmarks, and collects both performance and system level metrics like CPU, disk, and network usage .
+* What we learned: ScyllaDB consistently delivered higher throughput and scaled better under concurrent and write heavy workloads, while PostgreSQL showed more predictable latency but hit bottlenecks due to how the benchmark tool interacted with its connection model .
+
+Useful for: Anyone trying to decide between a traditional SQL database and a high performance NoSQL system for cloud hosted workloads, especially when cost, scaling behavior, and operational complexity all matter.
 
 #### Scada Generator
 Our Scada Generator started as a research-oriented experiment exploring how to generate or model network/SCADA-like datasets for testing anomaly detection pipelines. The working notebook and generator live at https://github.com/char26/scada-generator (public). It's implemented as a Jupyter notebook that demonstrates data generation and basic post-processing.
