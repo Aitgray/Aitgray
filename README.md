@@ -66,7 +66,7 @@ I run a DnD campaign with some friends from high school as a way to stay connect
 
 The second iteration was a relatively simple fix: I made a local version of the bot that would skip over Azure's services and use locally running open-source transcription models instead. This change improved privacy, lowered cost, and reduced latency for our sessions.
 
-Having graduated, I finally had some time to devote to the project, and I came back to exceptional news — the dependency was fixed! Having recently taken a class on Cloud Computing, I decided to make some improvements and port parts of the transcription and storage pipeline to be more reproducible and cheaper to run.
+Having graduated, I finally had some time to devote to the project, and I came back to exceptional news: the dependency was fixed! Having recently taken a class on Cloud Computing, I decided to make some improvements and port parts of the transcription and storage pipeline to be more reproducible and cheaper to run.
 
 Current tools and stack:
 - Whisper for transcription (open-source/locally hosted)
@@ -82,4 +82,4 @@ Homelabbing:
 ## Employment
 I am actively seeking roles related to Systems Engineering, Software Engineering, and Infrastructure. I'm particularly interested in positions where I can combine systems-level thinking with practical software: automation, observability, fault-tolerant services, and ML infrastructure.
 
-Contact: You can reach me via GitHub or drop a line on my profile — happy to share more detailed write-ups, CV, or live demos on request.
+Contact: You can reach me via GitHub or LinkedIn, I'm happy to share more detailed write-ups, CV, or live demos on request.
