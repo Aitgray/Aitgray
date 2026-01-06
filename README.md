@@ -1,11 +1,11 @@
 # About Me (Introduction)
-My name is Aidan, I recently obtained my Master's in Computer Science and I'm looking for a job. I'm a tech enthusiast, I love building tools that make my life and the lives of people around me easier — I like automating repetitive tasks, experimenting with ML models, and putting together systems that "just work" for the people who use them.
+My name is Aidan, I recently obtained my Master's in Computer Science and I'm looking for a job. I'm a tech enthusiast, I love building tools that make my life and the lives of people around me easier. I like automating repetitive tasks, experimenting with ML models, and putting together systems that "just work" for the people who use them.
 
 ## My Skills at a Glance
 I do most of my development in Python, though I've also worked with C++ fairly regularly over the course of my education. I've used PyTorch and Scikit-learn for my AI/ML classes and projects, matplotlib for plotting, and a handful of cloud and infra tools for coursework and personal projects. I try to write clear, tested code and make well-documented, reproducible experiments.
 
 ## My Projects
-I have a number of projects that I've completed; some I can't reveal due to requests by professors, but I'll still describe what I've done.
+I have a number of projects that I've completed; some I can't reveal due to requests by professors, so I've included my most notable publically available projects.
 
 ### Past
 A few of my most notable projects, with links included, of course.
@@ -29,8 +29,6 @@ Implementation notes and technologies:
 
 Why it mattered: integrating a reliable, low-latency glare-masking pipeline into a smart windshield can materially improve driver comfort and safety by reducing momentary blindness from specular reflections. KVALD was a practical effort to marry research ideas (glare detection/classification) with a concrete product integration target (automatic dimming/occlusion on a windshield).
 
-If you'd like, I can expand this into a full technical write-up with model architectures, training curves, dataset examples, and code snippets. I can also extract the core segmentation code into a small, documented package or provide a short demo script for inference on sample images.
-
 #### Cloud Comparison
 This is the documented result of a course project comparing cloud storage options for a CSE239 assignment. The original material lives in the repository https://github.com/char26/cse239-cloud-storage — note that the repo is private, so I can't embed the full contents here, but the project is primarily a written (LaTeX) report and experimental notes (repository language: TeX).
 
@@ -39,17 +37,13 @@ Summary (short):
 - What I produced: A structured report (LaTeX) with experimental methodology, measured/collected results, and discussion of trade-offs that matter for small teams and research groups.
 - Useful for: Anyone deciding between a low-cost archival solution and a frequently-accessed research dataset store; good background material for budgeting and simple performance expectations.
 
-Because the repo is private, if you want me to lift specific figures or tables into this README, either grant access or paste the relevant markdown/TeX snippets and I’ll integrate them.
+#### Scada Generator
+Our Scada Generator started as a research-oriented experiment exploring how to generate or model network/SCADA-like datasets for testing anomaly detection pipelines. The working notebook and generator live at https://github.com/char26/scada-generator (public). It's implemented as a Jupyter notebook that demonstrates data generation and basic post-processing.
 
-#### NetDiffusion
-NetDiffusion started as a research-oriented experiment exploring how to generate or model network/SCADA-like datasets for testing anomaly detection pipelines. The working notebook and generator live at https://github.com/char26/scada-generator (public). It's implemented as a Jupyter notebook that demonstrates data generation and basic post-processing.
-
-Summary (short):
+Summary:
 - Goal: Provide a reproducible generator for SCADA-like (industrial control) time-series data so that anomaly detection and monitoring models can be developed without access to proprietary datasets.
-- What I produced: A notebook that synthesizes signals, injects configurable anomalies, and shows simple visualizations — useful for prototyping ML models and validating detection logic.
+- What I produced: A validation and analysis pipeline to measure the success of our project and generate key figures to aid in our analysis. The validation pipeline performed both static and ML-based validation to ensure that generated packets were both well-formed and statistically similar to our real data, indicating they could be used in place of real data in other research and workloads.
 - Tech: Jupyter Notebook, Python ecosystem for numerical work (NumPy/pandas/plotting in the notebook).
-
-If you want a runnable package or a small CLI around the notebook, I can extract the generation code into a Python module and add usage examples.
 
 ### Present
 BardBot - My pride and joy  
