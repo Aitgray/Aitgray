@@ -1,10 +1,19 @@
-# Hi!
-## About Me
+# About Me (Introduction)
 My name is Aidan, I recently obtained my Master's in Computer Science and I'm looking for a job. I'm a tech enthusiast, I love building tools that make my life and the lives of people around me easier. Maybe some simple examples before I go more into depth, idk yet.
+## My Skills at a Glance
+I do most of my development in Python, though I've also worked with C++ fairly regularly over the course of my education. I've use PyTorch and Scikit-learn for my AI/ML classes and projects, matplotlib for visualization, as well as a number of other frameworks. Additionally, I have experience working with Docker and Docker Compose, Kubernetes, Terraform (GCS VM deployment), and storage systems like PostgreSQL and ScyllaDB. 
 ## My Projects
 I have a number of projects that I've completed, some I can't reveal due to requests by professors, but I'll still describe what I've done.
 ### Past
-All my projects/repos up until KVALD, which I need to make public
+A few of my most notible projects, with links included of course.
+#### KVALD
+
+#### Cloud Comparison
+
+#### NetDiffusion
+
+#### Computer Architecture Branch Prediction
+
 ### Present
 BardBot - My pride and joy
 I run a DnD campaign with some friends from High School, as a way to stay connected. After a few months of writing summaries by hand, I had the idea that there must be a better way, and so the first iteration of BardBot was born. I had been wanted to get some experience working with APIs and cloud services so I signed up for the student trial of Azure. I built a pipeline to record our sessions, send those recordings to Azure's transcription and storage services, and then fetch the transcriptions so I could plug them into ChatGPT. It wasn't without issues, but it worked spectacularly well. I ended up saving an hour or two each week, using AI for it's primary use case: to eliminate menial tasks. The first iteration served me well for a time, but eventually I ran out of credits, so I had to make a change.
@@ -17,7 +26,5 @@ Homelabbing:
 - Personal Nas running TrueNAS
 - Self hosted email server via Proton
 - Self hosted
-## Other Learning
-What projects have I worked on that aren't on github?
 ## Employment
 I am actively seeking roles related to Systems Engineering, Software Engineering, and Infrastructure.
