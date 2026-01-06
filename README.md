@@ -33,7 +33,7 @@ If you want a runnable package or a small CLI around the notebook, I can extract
 
 ### Present
 BardBot - My pride and joy  
-I run a DnD campaign with some friends from High School, as a way to stay connected. After a few months of writing summaries by hand, I had the idea that there must be a better way, and so the first iteration of BardBot was born: a bot that transcribes and summarizes sessions to keep everyone in sync.
+I run a DnD campaign with some friends from high school as a way to stay connected. After a few months of writing summaries by hand, I had the idea that there must be a better way, and so the first iteration of BardBot was born: a bot that transcribes and summarizes sessions to keep everyone in sync.
 
 The second iteration was a relatively simple fix: I made a local version of the bot that would skip over Azure's services and use locally running open-source transcription models instead. This change improved privacy, lowered cost, and reduced latency for our sessions.
 
@@ -42,8 +42,8 @@ Having graduated, I finally had some time to devote to the project, and I came b
 ### Future
 Homelabbing:
 - Personal NAS running TrueNAS
-- Self hosted email server via Proton
-- Self hosted everything else I can reasonably maintain
+- Self-hosted email server via Proton
+- Self-hosted everything else I can reasonably maintain
 
 ## Employment
 I am actively seeking roles related to Systems Engineering, Software Engineering, and Infrastructure. I'm particularly interested in positions where I can combine systems-level thinking with practical software: automation, observability, fault-tolerant services, and ML infrastructure.
