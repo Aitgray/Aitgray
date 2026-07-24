@@ -8,7 +8,7 @@ I do most of my development in Python, though I've also worked with C++ fairly r
 I have a number of projects that I've completed; some I can't reveal due to requests by professors, so I've included my most notable publically available projects.
 
 ### Past
-A few of my most notable projects, with links included, of course.
+A few of my most notable projects.
 
 #### KVALD
 KVALD was written to close a gap I noticed in the literature and tooling around glare handling: while glare classification algorithms and theoretical glare-blocking pipelines existed, there wasn't a full end-to-end system that took visual input and produced a usable mask to block glare in real time. The goal of KVALD was to build that full pipeline and make it easy to integrate with a smart windshield that could automatically dim or occlude areas with glare to improve visibility for drivers.
